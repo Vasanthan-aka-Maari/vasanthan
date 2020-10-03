@@ -212,25 +212,26 @@ body {
   background-image: url(./images/food.jpg);
   background-position: center;
   background-size: cover;
-  /*  */
 }
 .weather {
   background-image: url(./images/weather.jpg);
   background-position: center;
   background-size: cover;
-
 }
 .todo {
   background: url(./images/todo.jpg);
   background-position: center;
   background-size: cover;
-
 }
 .advice {
   background: url(./images/advice.jpg);
   background-position: center;
   background-size: cover;
-
+}
+.landing-page {
+  background-image: url(./images/landingpage.jpg);
+  background-position: center;
+  background-size: cover;
 }
 @media screen and (max-width: 800px) {
   #home {
