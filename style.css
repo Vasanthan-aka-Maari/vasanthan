@@ -16,7 +16,7 @@ hr {
 }
 body {
   font-family: "Poppins", sans-serif;
-  background: linear-gradient(to right,#fa5e68,  #c587ff);
+  background: linear-gradient(to right, #fa5e68, #c587ff);
   padding: 30px;
 }
 #home {
@@ -146,11 +146,12 @@ body {
 /* PROJECTS */
 .arrow {
   border: none;
+  color: white;
   font-size: 1.5rem;
 }
 .arrow:hover {
   background: none;
-  color: white;
+  color: black;
 }
 .projects {
   min-height: 75vh;
@@ -162,13 +163,13 @@ body {
   flex-wrap: wrap;
 }
 .project {
-  font-family: 'Secular One', sans-serif;
+  font-family: "Secular One", sans-serif;
   display: flex;
   text-align: center;
   align-items: center;
   justify-content: space-around;
   padding: 5px;
-  color: var(--primarybg);
+  color: #fff;
   width: 30%;
   height: 10rem;
   border-radius: 1rem;
@@ -178,13 +179,12 @@ body {
   animation: project 1s;
 }
 .project-title {
-  opacity: 2;
   font-size: 2rem;
   text-shadow: 0px 3px rgb(41, 41, 41);
 }
 .project-title span {
   font-size: 1rem;
-  color: var(--primarybg);
+  color: rgb(233, 233, 233);
 }
 .project-links {
   opacity: 0;
@@ -197,9 +197,11 @@ body {
 .project-links i {
   color: #fff;
 }
+.project:hover {
+  transform: scale(1.08);
+}
 .project:hover > .project-title {
   opacity: 0;
-  background-color: #ccc;
 }
 .project:hover > .project-links {
   opacity: 1;
@@ -209,27 +211,56 @@ body {
   background-color: blanchedalmond;
 }
 .food {
-  background-image: url(./images/food.jpg);
+  background-image: linear-gradient(
+      rgba(141, 140, 140, 0.377),
+      rgba(141, 141, 141, 0.377)
+    ),
+    url(./images/food.jpg);
   background-position: center;
   background-size: cover;
 }
 .weather {
-  background-image: url(./images/weather.jpg);
+  background-image: linear-gradient(
+      rgba(141, 140, 140, 0.377),
+      rgba(141, 141, 141, 0.377)
+    ),
+    url(./images/weather.jpg);
   background-position: center;
   background-size: cover;
 }
 .todo {
-  background: url(./images/todo.jpg);
+  background: linear-gradient(
+      rgba(141, 140, 140, 0.377),
+      rgba(141, 141, 141, 0.377)
+    ),
+    url(./images/todo.jpg);
   background-position: center;
   background-size: cover;
 }
 .advice {
-  background: url(./images/advice.jpg);
+  background: linear-gradient(
+      rgba(141, 140, 140, 0.377),
+      rgba(141, 141, 141, 0.377)
+    ),
+    url(./images/advice.jpg);
   background-position: center;
   background-size: cover;
 }
 .landing-page {
-  background-image: url(./images/landingpage.jpg);
+  background-image: linear-gradient(
+      rgba(141, 140, 140, 0.377),
+      rgba(141, 141, 141, 0.377)
+    ),
+    url(./images/landingpage.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.netflix-clone {
+  background-image: linear-gradient(
+      rgba(141, 140, 140, 0.377),
+      rgba(141, 141, 141, 0.377)
+    ),
+    url(./images/netflixlogo.jpg);
   background-position: center;
   background-size: cover;
 }
