@@ -70,6 +70,7 @@ body {
   padding: 40px 10px;
   color: #fff;
   display: flex;
+  min-height: 70vh;
 }
 .about-skill {
   flex: 5;
@@ -107,17 +108,20 @@ body {
 .skills {
   margin-top: 1rem;
   display: flex;
-  font-size: 1rem;
   animation: skills 0.8s;
+}
+.skill h3 {
+  padding-bottom: 1rem;
+  font-size: 1.5rem;
 }
 .skill-col {
   margin-left: 2rem;
 }
-.star {
+/* .star {
   color: #ffbd2e;
   margin-top: 5px;
   margin-bottom: 10px;
-}
+} */
 .contact {
   flex: 2;
   background-color: royalblue;
@@ -180,7 +184,6 @@ body {
 }
 .project-title {
   font-size: 2rem;
-  text-shadow: 0px 3px rgb(41, 41, 41);
 }
 .project-title span {
   font-size: 1rem;
@@ -196,6 +199,7 @@ body {
 }
 .project-links i {
   color: #fff;
+  transition: all 0.5s;
 }
 .project:hover {
   transform: scale(1.08);
