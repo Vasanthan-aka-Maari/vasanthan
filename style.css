@@ -241,12 +241,12 @@ body {
   background-position: center;
   background-size: cover;
 }
-.advice {
+.fortnite-app {
   background: linear-gradient(
       rgba(141, 140, 140, 0.377),
       rgba(141, 141, 141, 0.377)
     ),
-    url(./images/advice.jpg);
+    url(./images/fortnite-app.jpg);
   background-position: center;
   background-size: cover;
 }
